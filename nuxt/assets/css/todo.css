@@ -1,0 +1,378 @@
+/* Webfont: AbitareSans-50 */
+@font-face {
+    font-family: 'AbitareSans50';
+    src: url('~/assets/fonts/AbitareSans/A50/AbitareSans-50.eot'); /* IE9 Compat Modes */
+    src: url('~/assets/fonts/AbitareSans/A50/AbitareSans-50.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('~/assets/fonts/AbitareSans/A50/AbitareSans-50.woff') format('woff'), /* Modern Browsers */
+         url('~/assets/fonts/AbitareSans/A50/AbitareSans-50.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('~/assets/fonts/AbitareSans/A50/AbitareSans-50.svg#AbitareSans-50') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: AbitareSans-100 */
+@font-face {
+    font-family: 'AbitareSans100';
+    src: url('~/assets/fonts/AbitareSans/A100/AbitareSans-100.eot'); /* IE9 Compat Modes */
+    src: url('~/assets/fonts/AbitareSans/A100/AbitareSans-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('~/assets/fonts/AbitareSans/A100/AbitareSans-100.woff') format('woff'), /* Modern Browsers */
+         url('~/assets/fonts/AbitareSans/A100/AbitareSans-100.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('~/assets/fonts/AbitareSans/A100/AbitareSans-100.svg#AbitareSans-100') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: AbitareSans-150 */
+@font-face {
+    font-family: 'AbitareSans150';
+    src: url('~/assets/fonts/AbitareSans/A150/AbitareSans-150.eot'); /* IE9 Compat Modes */
+    src: url('~/assets/fonts/AbitareSans/A150/AbitareSans-150.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('~/assets/fonts/AbitareSans/A150/AbitareSans-150.woff') format('woff'), /* Modern Browsers */
+         url('~/assets/fonts/AbitareSans/A150/AbitareSans-150.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('~/assets/fonts/AbitareSans/A150/AbitareSans-150.svg#AbitareSans-150') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: AbitareSans-200 */
+@font-face {
+    font-family: 'AbitareSans200';
+    src: url('~/assets/fonts/AbitareSans/A200/AbitareSans-200.eot'); /* IE9 Compat Modes */
+    src: url('~/assets/fonts/AbitareSans/A200/AbitareSans-200.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('~/assets/fonts/AbitareSans/A200/AbitareSans-200.woff') format('woff'), /* Modern Browsers */
+         url('~/assets/fonts/AbitareSans/A200/AbitareSans-200.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('~/assets/fonts/AbitareSans/A200/AbitareSans-200.svg#AbitareSans-200') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: AbitareSans-250 */
+@font-face {
+    font-family: 'AbitareSans250';
+    src: url('~/assets/fonts/AbitareSans/A250/AbitareSans-250.eot'); /* IE9 Compat Modes */
+    src: url('~/assets/fonts/AbitareSans/A250/AbitareSans-250.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('~/assets/fonts/AbitareSans/A250/AbitareSans-250.woff') format('woff'), /* Modern Browsers */
+         url('~/assets/fonts/AbitareSans/A250/AbitareSans-250.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('~/assets/fonts/AbitareSans/A250/AbitareSans-250.svg#AbitareSans-250') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: AbitareSans-300 */
+@font-face {
+    font-family: 'AbitareSans300';
+    src: url('~/assets/fonts/AbitareSans/A300/AbitareSans-300.eot'); /* IE9 Compat Modes */
+    src: url('~/assets/fonts/AbitareSans/A300/AbitareSans-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('~/assets/fonts/AbitareSans/A300/AbitareSans-300.woff') format('woff'), /* Modern Browsers */
+         url('~/assets/fonts/AbitareSans/A300/AbitareSans-300.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('~/assets/fonts/AbitareSans/A300/AbitareSans-300.svg#AbitareSans-300') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: AbitareSans-350 */
+@font-face {
+    font-family: 'AbitareSans350';
+    src: url('~/assets/fonts/AbitareSans/A350/AbitareSans-350.eot'); /* IE9 Compat Modes */
+    src: url('~/assets/fonts/AbitareSans/A350/AbitareSans-350.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('~/assets/fonts/AbitareSans/A350/AbitareSans-350.woff') format('woff'), /* Modern Browsers */
+         url('~/assets/fonts/AbitareSans/A350/AbitareSans-350.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('~/assets/fonts/AbitareSans/A350/AbitareSans-350.svg#AbitareSans-350') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: AbitareSans-400 */
+@font-face {
+    font-family: 'AbitareSans400';
+    src: url('~/assets/fonts/AbitareSans/A400/AbitareSans-400.eot'); /* IE9 Compat Modes */
+    src: url('~/assets/fonts/AbitareSans/A400/AbitareSans-400.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('~/assets/fonts/AbitareSans/A400/AbitareSans-400.woff') format('woff'), /* Modern Browsers */
+         url('~/assets/fonts/AbitareSans/A400/AbitareSans-400.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('~/assets/fonts/AbitareSans/A400/AbitareSans-400.svg#AbitareSans-400') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+
+/* Webfont: AbitareSans-500 */
+@font-face {
+    font-family: 'AbitareSans500';
+    src: url('~/assets/fonts/AbitareSans/A500/AbitareSans-500.eot'); /* IE9 Compat Modes */
+    src: url('~/assets/fonts/AbitareSans/A500/AbitareSans-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('~/assets/fonts/AbitareSans/A500/AbitareSans-500.woff') format('woff'), /* Modern Browsers */
+         url('~/assets/fonts/AbitareSans/A500/AbitareSans-500.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('~/assets/fonts/AbitareSans/A500/AbitareSans-500.svg#AbitareSans-500') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: AbitareSans-600 */
+@font-face {
+    font-family: 'AbitareSans600';
+    src: url('~/assets/fonts/AbitareSans/A600/AbitareSans-600.eot'); /* IE9 Compat Modes */
+    src: url('~/assets/fonts/AbitareSans/A600/AbitareSans-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('~/assets/fonts/AbitareSans/A600/AbitareSans-600.woff') format('woff'), /* Modern Browsers */
+         url('~/assets/fonts/AbitareSans/A600/AbitareSans-600.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('~/assets/fonts/AbitareSans/A600/AbitareSans-600.svg#AbitareSans-600') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: AbitareSans-700 */
+@font-face {
+    font-family: 'AbitareSans700';
+    src: url('~/assets/fonts/AbitareSans/A700/AbitareSans-700.eot'); /* IE9 Compat Modes */
+    src: url('~/assets/fonts/AbitareSans/A700/AbitareSans-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('~/assets/fonts/AbitareSans/A700/AbitareSans-700.woff') format('woff'), /* Modern Browsers */
+         url('~/assets/fonts/AbitareSans/A700/AbitareSans-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('~/assets/fonts/AbitareSans/A700/AbitareSans-700.svg#AbitareSans-700') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: AbitareSans-800 */
+@font-face {
+    font-family: 'AbitareSans800';
+    src: url('~/assets/fonts/AbitareSans/A800/AbitareSans-800.eot'); /* IE9 Compat Modes */
+    src: url('~/assets/fonts/AbitareSans/A800/AbitareSans-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('~/assets/fonts/AbitareSans/A800/AbitareSans-800.woff') format('woff'), /* Modern Browsers */
+         url('~/assets/fonts/AbitareSans/A800/AbitareSans-800.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('~/assets/fonts/AbitareSans/A800/AbitareSans-800.svg#AbitareSans-800') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: AbitareSans-900 */
+@font-face {
+    font-family: 'AbitareSans900';
+    src: url('~/assets/fonts/AbitareSans/A900/AbitareSans-900.eot'); /* IE9 Compat Modes */
+    src: url('~/assets/fonts/AbitareSans/A900/AbitareSans-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('~/assets/fonts/AbitareSans/A900/AbitareSans-900.woff') format('woff'), /* Modern Browsers */
+         url('~/assets/fonts/AbitareSans/A900/AbitareSans-900.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('~/assets/fonts/AbitareSans/A900/AbitareSans-900.svg#AbitareSans-900') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: AbitareSans-1000 */
+@font-face {
+    font-family: 'AbitareSans1000';
+    src: url('~/assets/fonts/AbitareSans/A1000/AbitareSans-1000.eot'); /* IE9 Compat Modes */
+    src: url('~/assets/fonts/AbitareSans/A1000/AbitareSans-1000.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('~/assets/fonts/AbitareSans/A1000/AbitareSans-1000.woff') format('woff'), /* Modern Browsers */
+         url('~/assets/fonts/AbitareSans/A1000/AbitareSans-1000.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('~/assets/fonts/AbitareSans/A1000/AbitareSans-1000.svg#AbitareSans-1000') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: AbitareSansItalic-0 */
+@font-face {
+    font-family: 'AbitareSansItalic0';
+    src: url('~/assets/fonts/AbitareSans/Ai0/AbitareSans-0.eot'); /* IE9 Compat Modes */
+    src: url('~/assets/fonts/AbitareSans/Ai0/AbitareSans-0.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('~/assets/fonts/AbitareSans/Ai0/AbitareSans-0.woff') format('woff'), /* Modern Browsers */
+         url('~/assets/fonts/AbitareSans/Ai0/AbitareSans-0.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('~/assets/fonts/AbitareSans/Ai0/AbitareSans-0.svg#AbitareSansItalic-0') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: AbitareSansItalic-50 */
+@font-face {
+    font-family: 'AbitareSansItalic50';
+    src: url('~/assets/fonts/AbitareSans/Ai50/AbitareSans-50.eot'); /* IE9 Compat Modes */
+    src: url('~/assets/fonts/AbitareSans/Ai50/AbitareSans-50.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('~/assets/fonts/AbitareSans/Ai50/AbitareSans-50.woff') format('woff'), /* Modern Browsers */
+         url('~/assets/fonts/AbitareSans/Ai50/AbitareSans-50.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('~/assets/fonts/AbitareSans/Ai50/AbitareSans-50.svg#AbitareSansItalic-50') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: AbitareSansItalic-100 */
+@font-face {
+    font-family: 'AbitareSansItalic100';
+    src: url('~/assets/fonts/AbitareSans/Ai100/AbitareSans-100.eot'); /* IE9 Compat Modes */
+    src: url('~/assets/fonts/AbitareSans/Ai100/AbitareSans-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('~/assets/fonts/AbitareSans/Ai100/AbitareSans-100.woff') format('woff'), /* Modern Browsers */
+         url('~/assets/fonts/AbitareSans/Ai100/AbitareSans-100.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('~/assets/fonts/AbitareSans/Ai100/AbitareSans-100.svg#AbitareSansItalic-100') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: AbitareSansItalic-150 */
+@font-face {
+    font-family: 'AbitareSansItalic150';
+    src: url('~/assets/fonts/AbitareSans/Ai150/AbitareSans-150.eot'); /* IE9 Compat Modes */
+    src: url('~/assets/fonts/AbitareSans/Ai150/AbitareSans-150.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('~/assets/fonts/AbitareSans/Ai150/AbitareSans-150.woff') format('woff'), /* Modern Browsers */
+         url('~/assets/fonts/AbitareSans/Ai150/AbitareSans-150.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('~/assets/fonts/AbitareSans/Ai150/AbitareSans-150.svg#AbitareSansItalic-150') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: AbitareSansItalic-200 */
+@font-face {
+    font-family: 'AbitareSansItalic200';
+    src: url('~/assets/fonts/AbitareSans/Ai200/AbitareSans-200.eot'); /* IE9 Compat Modes */
+    src: url('~/assets/fonts/AbitareSans/Ai200/AbitareSans-200.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('~/assets/fonts/AbitareSans/Ai200/AbitareSans-200.woff') format('woff'), /* Modern Browsers */
+         url('~/assets/fonts/AbitareSans/Ai200/AbitareSans-200.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('~/assets/fonts/AbitareSans/Ai200/AbitareSans-200.svg#AbitareSansItalic-200') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: AbitareSansItalic-250 */
+@font-face {
+    font-family: 'AbitareSansItalic250';
+    src: url('~/assets/fonts/AbitareSans/Ai250/AbitareSans-250.eot'); /* IE9 Compat Modes */
+    src: url('~/assets/fonts/AbitareSans/Ai250/AbitareSans-250.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('~/assets/fonts/AbitareSans/Ai250/AbitareSans-250.woff') format('woff'), /* Modern Browsers */
+         url('~/assets/fonts/AbitareSans/Ai250/AbitareSans-250.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('~/assets/fonts/AbitareSans/Ai250/AbitareSans-250.svg#AbitareSansItalic-250') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: AbitareSansItalic-300 */
+@font-face {
+    font-family: 'AbitareSansItalic300';
+    src: url('~/assets/fonts/AbitareSans/Ai300/AbitareSans-300.eot'); /* IE9 Compat Modes */
+    src: url('~/assets/fonts/AbitareSans/Ai300/AbitareSans-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('~/assets/fonts/AbitareSans/Ai300/AbitareSans-300.woff') format('woff'), /* Modern Browsers */
+         url('~/assets/fonts/AbitareSans/Ai300/AbitareSans-300.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('~/assets/fonts/AbitareSans/Ai300/AbitareSans-300.svg#AbitareSansItalic-300') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: AbitareSansItalic-350 */
+@font-face {
+    font-family: 'AbitareSansItalic350';
+    src: url('~/assets/fonts/AbitareSans/Ai350/AbitareSans-350.eot'); /* IE9 Compat Modes */
+    src: url('~/assets/fonts/AbitareSans/Ai350/AbitareSans-350.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('~/assets/fonts/AbitareSans/Ai350/AbitareSans-350.woff') format('woff'), /* Modern Browsers */
+         url('~/assets/fonts/AbitareSans/Ai350/AbitareSans-350.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('~/assets/fonts/AbitareSans/Ai350/AbitareSans-350.svg#AbitareSansItalic-350') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: AbitareSansItalic-400 */
+@font-face {
+    font-family: 'AbitareSansItalic400';
+    src: url('~/assets/fonts/AbitareSans/Ai400/AbitareSans-400.eot'); /* IE9 Compat Modes */
+    src: url('~/assets/fonts/AbitareSans/Ai400/AbitareSans-400.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('~/assets/fonts/AbitareSans/Ai400/AbitareSans-400.woff') format('woff'), /* Modern Browsers */
+         url('~/assets/fonts/AbitareSans/Ai400/AbitareSans-400.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('~/assets/fonts/AbitareSans/Ai400/AbitareSans-400.svg#AbitareSansItalic-400') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+
+/* Webfont: AbitareSansItalic-500 */
+@font-face {
+    font-family: 'AbitareSansItalic500';
+    src: url('~/assets/fonts/AbitareSans/Ai500/AbitareSans-500.eot'); /* IE9 Compat Modes */
+    src: url('~/assets/fonts/AbitareSans/Ai500/AbitareSans-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('~/assets/fonts/AbitareSans/Ai500/AbitareSans-500.woff') format('woff'), /* Modern Browsers */
+         url('~/assets/fonts/AbitareSans/Ai500/AbitareSans-500.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('~/assets/fonts/AbitareSans/Ai500/AbitareSans-500.svg#AbitareSansItalic-500') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: AbitareSansItalic-600 */
+@font-face {
+    font-family: 'AbitareSansItalic600';
+    src: url('~/assets/fonts/AbitareSans/Ai600/AbitareSans-600.eot'); /* IE9 Compat Modes */
+    src: url('~/assets/fonts/AbitareSans/Ai600/AbitareSans-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('~/assets/fonts/AbitareSans/Ai600/AbitareSans-600.woff') format('woff'), /* Modern Browsers */
+         url('~/assets/fonts/AbitareSans/Ai600/AbitareSans-600.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('~/assets/fonts/AbitareSans/Ai600/AbitareSans-600.svg#AbitareSansItalic-600') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: AbitareSansItalic-700 */
+@font-face {
+    font-family: 'AbitareSansItalic700';
+    src: url('~/assets/fonts/AbitareSans/Ai700/AbitareSans-700.eot'); /* IE9 Compat Modes */
+    src: url('~/assets/fonts/AbitareSans/Ai700/AbitareSans-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('~/assets/fonts/AbitareSans/Ai700/AbitareSans-700.woff') format('woff'), /* Modern Browsers */
+         url('~/assets/fonts/AbitareSans/Ai700/AbitareSans-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('~/assets/fonts/AbitareSans/Ai700/AbitareSans-700.svg#AbitareSansItalic-700') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: AbitareSansItalic-800 */
+@font-face {
+    font-family: 'AbitareSansItalic800';
+    src: url('~/assets/fonts/AbitareSans/Ai800/AbitareSans-800.eot'); /* IE9 Compat Modes */
+    src: url('~/assets/fonts/AbitareSans/Ai800/AbitareSans-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('~/assets/fonts/AbitareSans/Ai800/AbitareSans-800.woff') format('woff'), /* Modern Browsers */
+         url('~/assets/fonts/AbitareSans/Ai800/AbitareSans-800.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('~/assets/fonts/AbitareSans/Ai800/AbitareSans-800.svg#AbitareSansItalic-800') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: AbitareSansItalic-900 */
+@font-face {
+    font-family: 'AbitareSansItalic900';
+    src: url('~/assets/fonts/AbitareSans/Ai900/AbitareSans-900.eot'); /* IE9 Compat Modes */
+    src: url('~/assets/fonts/AbitareSans/Ai900/AbitareSans-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('~/assets/fonts/AbitareSans/Ai900/AbitareSans-900.woff') format('woff'), /* Modern Browsers */
+         url('~/assets/fonts/AbitareSans/Ai900/AbitareSans-900.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('~/assets/fonts/AbitareSans/Ai900/AbitareSans-900.svg#AbitareSansItalic-900') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: AbitareSansItalic-1000 */
+@font-face {
+    font-family: 'AbitareSansItalic1000';
+    src: url('~/assets/fonts/AbitareSans/Ai1000/AbitareSans-1000.eot'); /* IE9 Compat Modes */
+    src: url('~/assets/fonts/AbitareSans/Ai1000/AbitareSans-1000.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('~/assets/fonts/AbitareSans/Ai1000/AbitareSans-1000.woff') format('woff'), /* Modern Browsers */
+         url('~/assets/fonts/AbitareSans/Ai1000/AbitareSans-1000.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('~/assets/fonts/AbitareSans/Ai1000/AbitareSans-1000.svg#AbitareSansItalic-1000') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}

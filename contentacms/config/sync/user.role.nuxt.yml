@@ -1,0 +1,9 @@
+uuid: fbc030d7-c95e-4496-ab3c-c05257599e86
+langcode: en
+status: true
+dependencies: {  }
+id: nuxt
+label: Nuxt
+weight: 5
+is_admin: null
+permissions: {  }

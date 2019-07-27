@@ -1,0 +1,14 @@
+uuid: 2609a644-d5a5-4658-84f7-0347e311f9e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.nuxt
+  module:
+    - user
+id: user_add_role_action.nuxt
+label: 'Add the Nuxt role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: nuxt

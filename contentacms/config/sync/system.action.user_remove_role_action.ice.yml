@@ -1,0 +1,14 @@
+uuid: c48cb605-b415-4d3c-891d-d7ac47a6cb85
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ice
+  module:
+    - user
+id: user_remove_role_action.ice
+label: 'Remove the Ice role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: ice

@@ -1,0 +1,12 @@
+<template>
+  <div class="font-sans">
+				<span class="text-base md:text-sm text-teal font-bold">&lt;<span> <a href="#" class="text-base md:text-sm text-teal font-bold no-underline hover:underline">BACK TO BLOG</a></p>
+				<h1 class="font-sans break-normal text-black pt-6 pb-2 text-3xl md:text-4xl">Welcome to Minimal Blog</h1>
+				<p class="text-sm md:text-base font-normal text-grey-dark">Published 19 February 2019</p>
+			</div>
+</template>
+<script>
+export default {
+  name: 'BaseTitle'
+}
+</script>

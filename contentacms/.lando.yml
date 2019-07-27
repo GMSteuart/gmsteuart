@@ -1,0 +1,32 @@
+name: contentacms-api
+recipe: drupal8
+config:
+  webroot: web
+# excludes:
+#   - vendor
+#   - web/core
+#   - web/modules/contrib
+#   - web/themes/contrib
+env_file:
+  - .env
+services:
+  appserver:
+    build:
+      - mkdir -p /app/web/sites/default/files/tmp
+      - mkdir -p /app/config/sync
+    run:
+      - /bin/sh -c 'composer config --global github-oauth.github.com $GITHUB_ACCESS_TOKEN'
+      - composer install
+    overrides:
+      volumes:
+        - "./:/app:cached"
+tooling:
+  phpcs:
+    service: appserver
+    cmd: /app/vendor/bin/phpcs
+  phpcbf:
+    service: appserver
+    cmd: /app/vendor/bin/phpcbf
+  phpunit:
+    service: appserver
+    cmd: /app/vendor/bin/phpunit

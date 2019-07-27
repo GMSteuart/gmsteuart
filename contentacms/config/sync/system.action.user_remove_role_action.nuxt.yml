@@ -1,0 +1,14 @@
+uuid: 3c21b547-258c-4e12-9836-66bceb0d5436
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.nuxt
+  module:
+    - user
+id: user_remove_role_action.nuxt
+label: 'Remove the Nuxt role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: nuxt
