@@ -1,0 +1,25 @@
+{
+  "name": "gmsteuart",
+  "private": "true",
+  "version": "1.0.0",
+  "description": "GMSteuart's personal website",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GMSteuart/gmsteuart.git"
+  },
+  "keywords": [
+    "gmsteuart",
+    "kansas",
+    "city",
+    "developer"
+  ],
+  "author": "Grant Steuart <gmsteuart@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GMSteuart/gmsteuart/issues"
+  },
+  "homepage": "https://github.com/GMSteuart/gmsteuart#readme"
+}
