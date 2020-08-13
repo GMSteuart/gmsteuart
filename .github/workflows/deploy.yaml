@@ -9,12 +9,11 @@ jobs:
   build-deploy:
     runs-on: ubuntu-18.04
     steps:
-    - uses: actions/checkout@master
-
+    - uses: actions/checkout@v2
     - name: Setup Node
       uses: actions/setup-node@v1
       with:
-        node-version: '10.x'
+        node-version: '14'
 
     - name: Cache dependencies
       uses: actions/cache@v1
@@ -28,8 +27,7 @@ jobs:
     - run: npm run generate
 
     - name: Deploy
-      uses: peaceiris/actions-gh-pages@v2.5.0
+      uses: peaceiris/actions-gh-pages@v3
       env:
-        ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-        PUBLISH_BRANCH: gh-pages
-        PUBLISH_DIR: ./dist
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
