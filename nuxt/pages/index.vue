@@ -1,10 +1,20 @@
 <template>
-  <v-layout column justify-center align-center>
-    <v-flex>
-      <my-card xs12 sm12 md3 />
-      <my-timeline xs12 sm12 md9 lg6 />
-    </v-flex>
-  </v-layout>
+  <v-container fluid class="container--home">
+    <v-row no-gutters>
+      <v-col>
+        <v-row justify="center">
+          <v-col class="pb-0">
+            <my-card />
+          </v-col>
+        </v-row>
+        <v-row justify="center">
+          <v-col class="pt-1">
+            <my-timeline />
+          </v-col>
+        </v-row>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script>
@@ -18,3 +28,9 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+.container--home {
+  max-width: 1024px;
+}
+</style>

@@ -1,41 +1,85 @@
 <template>
-  <v-timeline dense>
-    <v-timeline-item
-      v-for="(item, i) in items"
-      :key="i"
-      small
-      fill-dot
-      color="grey"
-    >
-      <template v-slot:opposite>
-        <span class="headline font-weight-bold"></span>
-      </template>
-      <v-card>
-        <v-card-text class="text-overline pb-0">{{ item.title }}</v-card-text>
-        <v-card-title class="headline py-0">{{
-          item.company.name
-        }}</v-card-title>
-        <v-card-text class="text-subtitle-2 font-weight-light py-0 my-0"
-          >{{ item.start }} - {{ item.end }}</v-card-text
-        >
-        <v-card-text class="text-body-1 mt-0">
-          {{ item.description }}
-        </v-card-text>
+  <v-card max-width="644px" flat class="mx-auto">
+    <v-timeline :align-top="alignTop" dense>
+      <v-timeline-item
+        v-for="(item, i) in items"
+        :key="i"
+        :class="{ 'v-timeline-item--adjust': alignTop }"
+        small
+        fill-dot
+        color="secondary"
+      >
+        <template v-slot:opposite>
+          <span class="headline font-weight-bold"></span>
+        </template>
 
-        <v-card flat class="d-flex flex-column">
-          <v-card-text
-            class="text-subtitle-1 text-uppercase font-weight-bold pb-0 pl-5"
-            >Tools</v-card-text
-          >
-          <v-card-text class="d-flex flex-row pt-0">
-            <v-card v-for="(tool, t) in item.tools" :key="t" flat class="pa-2">
-              {{ tool }}
-            </v-card>
-          </v-card-text>
+        <v-card>
+          <v-card flat class="d-flex flex-column">
+            <v-container fluid>
+              <v-row>
+                <v-col class="pa-0">
+                  <v-card flat>
+                    <v-card-text class="text-overline pb-0">{{
+                      item.title
+                    }}</v-card-text>
+                    <v-card-title class="headline py-0">{{
+                      item.company.name
+                    }}</v-card-title>
+                    <v-card-text
+                      class="text-subtitle-2 font-weight-light py-0 my-0"
+                      >{{ item.start }} - {{ item.end }}</v-card-text
+                    >
+                  </v-card>
+                </v-col>
+              </v-row>
+              <v-row>
+                <v-col class="pa-0">
+                  <v-expansion-panels v-model="item.panel" flat>
+                    <v-expansion-panel>
+                      <v-expansion-panel-header class="px-4">
+                        About My Role
+                      </v-expansion-panel-header>
+                      <v-expansion-panel-content>
+                        <p>{{ item.description }}</p>
+                        <v-alert
+                          v-if="item.alert"
+                          :type="item.alert.type"
+                          class="text--secondary"
+                        >
+                          {{ item.alert.message }}
+                        </v-alert>
+                      </v-expansion-panel-content>
+                    </v-expansion-panel>
+                  </v-expansion-panels>
+                </v-col>
+              </v-row>
+              <v-row>
+                <v-col class="pb-0">
+                  <v-row no-gutters class="pt-0 pl-1">
+                    <span class="text-subtitle-2">Tools</span>
+                  </v-row>
+                </v-col>
+              </v-row>
+              <v-row>
+                <v-col cols="12" class="pt-0">
+                  <v-row no-gutters class="pt-0">
+                    <v-card
+                      v-for="(tool, t) in item.tools"
+                      :key="t"
+                      flat
+                      class="pa-1 pr-2 text-body-2 font-weight-light"
+                    >
+                      {{ tool }}
+                    </v-card>
+                  </v-row>
+                </v-col>
+              </v-row>
+            </v-container>
+          </v-card>
         </v-card>
-      </v-card>
-    </v-timeline-item>
-  </v-timeline>
+      </v-timeline-item>
+    </v-timeline>
+  </v-card>
 </template>
 <script>
 export default {
@@ -53,8 +97,12 @@ export default {
           location: 'Remote',
           description: `Refactored 16 University of Missouri websites from dynamically generated PHP websites to
 static websites for hosting on AWS S3. Replaced email processing on the backend with a custom frontend JavaScript form
-handler. Tested websites locally using Docker with LocalStack and a web crawler with additional scripting to verify
-every page loaded all assets (e.g. CSS, JS, images, etc) to ensure successful deployments.`,
+handler. Ran websites locally using Docker with LocalStack to simulate the production environment. Tested sites with a
+web crawler with additional scripting to verify every page loaded all assets (e.g. CSS, JS, images, etc) to ensure
+successful deployments. Some sites were simple requiring very minimal changes while others were more involved. There
+were two sites in particular with over a thousand pages, each page requiring dozens of changes, and proved to be an
+interesting non-standard problem to solve and automate. On the plus side, there were broken pages on the two large sites
+that ended up being fixed as a result of the process.`,
           websites: [
             'https://andes.missouri.edu',
             'https://archaeometry.missouri.edu',
@@ -91,7 +139,12 @@ every page loaded all assets (e.g. CSS, JS, images, etc) to ensure successful de
             'CSS3',
             'Bash',
             'RegExp'
-          ]
+          ],
+          /**
+           * The open/close state of the expansion panel
+           */
+          panel: false,
+          alert: false
         },
         {
           start: 'February 2017',
@@ -181,9 +234,23 @@ development environment structure, and frontend component development.`,
             'Docker Compose',
             'jQuery',
             'Vue',
-            'Apache'
+            'Apache',
+            'Adobe Photoshop',
+            'Sketch',
+            'JIRA',
+            'Jenkins',
+            'Salsify API',
+            'Bitbucket'
           ],
-          languages: []
+          languages: [],
+          /**
+           * The open/close state of the expansion panel
+           */
+          panel: false,
+          alert: {
+            type: 'info',
+            message: 'Individual project information coming soon!'
+          }
         },
         {
           start: 'June 2014',
@@ -209,7 +276,12 @@ hire an acquintance as a web developer. Ultimately, led development until the st
             'WebSockets'
           ],
           languages: ['PHP', 'JavaScript', 'HTML5', 'CSS3', 'MySQL'],
-          apis: ['WhitePages', 'Google Maps']
+          apis: ['WhitePages', 'Google Maps'],
+          /**
+           * The open/close state of the expansion panel
+           */
+          panel: false,
+          alert: false
         },
         {
           start: 'September 2013',
@@ -234,10 +306,34 @@ sites and resolved any errors that occurred.`,
             'Moodle'
           ],
           languages: ['PHP', 'JavaScript', 'HTML5', 'CSS3', 'MySQL'],
-          apis: ['Google Graphs']
+          apis: ['Google Graphs'],
+          /**
+           * The open/close state of the expansion panel
+           */
+          panel: false,
+          alert: false
         }
       ]
+    }
+  },
+  computed: {
+    alignTop() {
+      return this.$vuetify.breakpoint.smAndDown
     }
   }
 }
 </script>
+<style lang="scss">
+@import '~/assets/variables.scss';
+
+.v-timeline-item {
+  $self: &;
+
+  // Fix timeline wedge not poiting at divider dot because of size changes
+  &--adjust {
+    #{ $self }__divider {
+      padding-top: 10px;
+    }
+  }
+}
+</style>

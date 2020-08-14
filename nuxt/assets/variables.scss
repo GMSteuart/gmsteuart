@@ -1,4 +1,8 @@
 // Ref: https://github.com/nuxt-community/vuetify-module#customvariables
-//
 // The variables you want to modify
 // $font-size-root: 20px;
+// Timeline
+$timeline-divider-width: 48px;
+$timeline-dot-small-size: 16px;
+
+@import '~vuetify/src/styles/styles.sass';
